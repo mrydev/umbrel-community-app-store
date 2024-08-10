@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: mango-your-spotify
+name: Your Spotify
+tagline: Self hosted Spotify tracking dashboard
+icon: https://svgur.com/i/mvA.svg
+category: Entertainment
+version: "1.0.0"
+port: 4159
+description: >-
+  Add your app's description here.
+
+
+  You can also add newlines!
+
+developer: Yooooomi
+website: https://github.com/Yooooomi
+submitter: Yooooomi
+submission: https://github.com/Yooooomi/your_spotify
+repo: https://github.com/Yooooomi/your_spotify
+support: https://github.com/Yooooomi/your_spotify
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: [secret , public ]
+path: ""
+defaultUsername: ""
+defaultPassword: ""
