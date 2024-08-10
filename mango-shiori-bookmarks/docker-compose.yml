@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  shiori:
+    image: ghcr.io/go-shiori/shiori:v1.7.0-8-g40ae4cd
+    restart: on-failure
+    stop_grace_period: 1m
+    volumes:
+      - ${APP_DATA_DIR}/shiori:/srv/shiori
+    environment:
+      SHIORI_AUTH_USER: "admin"
+      SHIORI_AUTH_PASS: "password"
+    ports:
+      - "6799:8080"

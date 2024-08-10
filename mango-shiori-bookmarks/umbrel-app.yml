@@ -1,0 +1,31 @@
+manifestVersion: 1
+id: mango-shiori-bookmarks
+name: Shiori
+tagline: Simple self-hosted bookmark manager
+icon: https://svgur.com/i/XkZ.svg
+category: Productivity
+version: "1.7.0-8"
+port: 6799
+description: >-
+  Shiori is a simple, self-hosted bookmark manager 
+  built with Go. It allows you to easily manage 
+  and organize your bookmarks and supports a simple, 
+  user-friendly web interface.
+
+developer: Go-Shiori Team
+website: https://github.com/go-shiori/shiori
+submitter: Go-Shiori Team
+submission: https://github.com/go-shiori/shiori
+repo: https://github.com/go-shiori/shiori
+support: https://github.com/go-shiori/shiori
+gallery:
+  - https://raw.githubusercontent.com/go-shiori/shiori/master/screenshots/bookmark-list.png
+  - https://raw.githubusercontent.com/go-shiori/shiori/master/screenshots/bookmark-add.png
+  - https://raw.githubusercontent.com/go-shiori/shiori/master/screenshots/bookmark-edit.png
+releaseNotes: >-
+  Updated to version 1.7.0-8 with various performance 
+  improvements and bug fixes.
+dependencies: []
+path: ""
+defaultUsername: "admin"
+defaultPassword: "password"
